@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "description": "Compress Image, Video, PDF, DOCX, XLSX, PPTX under 10 MB",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },

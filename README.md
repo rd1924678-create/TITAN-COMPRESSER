@@ -1,5 +1,9 @@
 # ⚡ TITAN-COMPRESSER // GAMING EDITION v3.2
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D16.0.0-green.svg)](https://nodejs.org/)
+[![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline%20%26%20Local-brightgreen.svg)](README.md)
+
 > **High-Performance Multi-Payload Compression Matrix engineered to enforce a strict `< 10 MB` threshold across Images, Videos, PDFs, and Office Documents. 100% Local & Private — your files never leave your computer.**
 
 ---
@@ -164,4 +168,6 @@ cpmpress/
 
 ## 📜 License
 
-ISC © 2026 TITAN-COMPRESSER Engine. Built for ultra-fast, gaming-grade terminal productivity.
+This project is open-source and licensed under the **[MIT License](LICENSE)** — feel free to use, modify, and distribute it freely.
+
+Copyright © 2026 TITAN-COMPRESSER Engine. Built for ultra-fast, gaming-grade terminal productivity.
