@@ -1,12 +1,14 @@
 # ⚡ TITAN-COMPRESSER // GAMING EDITION v3.2
 
-> **High-Performance Multi-Payload Compression Matrix engineered to enforce a strict `< 10 MB` threshold across Images, Videos, PDFs, and Office Documents with a Cyberpunk Gaming HUD aesthetic.**
+> **High-Performance Multi-Payload Compression Matrix engineered to enforce a strict `< 10 MB` threshold across Images, Videos, PDFs, and Office Documents. 100% Local & Private — your files never leave your computer.**
 
 ---
 
 ## 🎮 Overview
 
 **TITAN-COMPRESSER** is a standalone, modular Node.js command-line utility and double-click executable designed for effortless file size reduction. Built with a futuristic terminal UI, it provides real-time telemetry, RPG-style progress bars, performance rankings, and automated multi-tier compression algorithms to guarantee files stay under strict upload limits (such as email, Discord, Slack, and web portal thresholds).
+
+All processing is executed **100% on your local machine** — zero cloud uploads, zero external API calls, and zero data logging.
 
 ```
   ╔═══════════════════════════════════════════════════════════════════════╗
@@ -28,8 +30,19 @@
 
 ---
 
+## 🔒 100% Privacy & Security Guarantee
+
+Your privacy is paramount. Unlike online compression websites that upload your files to unknown third-party servers:
+- **Zero Cloud Uploads**: Compression is performed 100% locally by offline binaries (`sharp`, `ffmpeg-static`, `pdf-lib`).
+- **No Internet Required**: Once installed, no network connection is ever utilized.
+- **No Tracking or Telemetry**: Zero analytics, zero logging, and zero collection of personal information or metadata.
+- **Originals Safe**: Source files are never modified or replaced. Output files are saved with a `_compressed` suffix.
+
+---
+
 ## 🚀 Features
 
+- **🔒 100% Offline & Private**: Your sensitive documents, photos, and videos stay strictly inside your device.
 - **🎯 Strict < 10 MB Target Cap**: Automatically steps down through dynamic quality tiers until the file safely hits the target size.
 - **👾 Universal Format Arsenal**:
   - **Images**: `JPG`, `PNG`, `WebP`, `GIF`, `BMP`, `TIFF`, `AVIF`, `HEIC`, `HEIF`, `SVG`, `ICO`, `RAW`, `JFIF`, `PJPEG`.
@@ -41,7 +54,7 @@
   - Pre-compression **Mission Briefing** telemetry card.
   - Post-compression **Mission Complete Scoreboard** with energy reduction gauges and rank rating (`SSS`, `SS`, `S`, `A`).
 - **⚡ Portable & Friendly Execution**: Single double-click launcher (`compress.bat`) handles dependency setup automatically for non-technical users.
-- **🛡️ Safe Processing**: Original files are never overwritten; outputs are saved with a `_compressed` suffix in the same directory.
+- **🛡️ Non-Destructive**: Original files are never overwritten; outputs are saved with a `_compressed` suffix in the same directory.
 
 ---
 
@@ -143,6 +156,9 @@ cpmpress/
 
 ### Q: Does compression overwrite my original file?
 > **No.** Your original source file remains untouched. The optimized output is saved as `<filename>_compressed.<ext>` right beside the source file.
+
+### Q: Are my files or personal data uploaded to any server or cloud?
+> **Never.** Unlike online file compressor sites, TITAN-COMPRESSER runs 100% locally and offline on your computer. Your files and data never leave your system.
 
 ---
 
